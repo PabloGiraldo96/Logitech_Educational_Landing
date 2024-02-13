@@ -1,0 +1,93 @@
+
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  overflow-x: hidden;
+  margin: 0; 
+}
+
+
+img{
+  max-width: 100%; /* Ajustado para hacer la imagen responsive */
+  height: auto; 
+  opacity: 1;
+  margin-top: 1rem;
+}
+
+.second_image{
+position: relative;
+bottom: -200px;
+}
+
+.logitechII{
+width: 900px;
+height: 760px;
+position: relative;
+right: -100px;
+}
+
+
+h1{
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1.8rem;
+  font-size: 4rem;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h2{
+  font-family: "Poppins", sans-serif;
+  font-size: 1.95rem;
+  letter-spacing: 1rem;
+}
+
+.subtitle_second_image{
+	position: relative;
+	right: 840px;
+	bottom: 425px;
+	font-family: "Poppins", sans-serif;
+	letter-spacing: 0.3rem;
+	font-size: 1.7rem;
+}
+
+.subtitle_second{
+	position: relative;
+	right: 390px;
+	bottom: 325px;
+	font-family: "Poppins", sans-serif;
+	letter-spacing: 0.3rem;
+	font-size: 1.7rem;
+}
+
+.subtitle_third{	
+	opacity: 0;
+	position: absolute;
+	right: 90px;
+	bottom: 0;
+	font-family: "Poppins", sans-serif;
+	font-size: 1.2rem;
+	letter-spacing: 0.6rem;
+}
+
+@media (max-width: 368px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .subtitle_second_image,
+  .subtitle_second {
+    font-size: 1rem;
+  }
+
+  .subtitle_third {
+    font-size: 1rem;
+  }
+}
